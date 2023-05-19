@@ -38,7 +38,7 @@ export default function App() {
         {
           loaded && data.map((object) => {
             return (
-              <Card id={object['uuid']} titulo={object['displayName']} descricao={object['description']} imagem={object['displayIcon']} habilidades={object['abilities']} />
+              <Card id={object['uuid']} titulo={object['displayName']} descricao={object['description']} imagem={object['displayIcon']}/>
             )
           })
         }

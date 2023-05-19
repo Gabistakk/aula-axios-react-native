@@ -10,16 +10,6 @@ return(
       <Image style={styles.imagemVenda} source={{uri: props.imagem}}></Image>
       <Text style={{ fontSize: 20}}>{props.descricao}</Text>
       <Text style={{ fontSize: 30}}>Habilidades:</Text>
-      {
-        props.habilidades.map((habilidade) =>{
-          return(
-          <View>
-            <Text style={{ fontSize: 20}}>{habilidade['displayName']}:</Text>
-            <Text style={{ fontSize: 15}}>{habilidade['description']}</Text>
-            </View>
-          )
-        })
-      }
     </View>
 
 )
